@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "human-tools@0.1.0",
+        "scope": null,
+        "escapedName": "human-tools",
+        "name": "human-tools",
+        "rawSpec": "0.1.0",
+        "spec": "0.1.0",
+        "type": "version"
+      },
+      "D:\\Stuff\\Coding\\Testing"
+    ]
+  ],
+  "_from": "human-tools@0.1.0",
+  "_id": "human-tools@0.1.0",
+  "_inCache": true,
+  "_location": "/human-tools",
+  "_nodeVersion": "7.7.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/human-tools-0.1.0.tgz_1513365695013_0.45100055914372206"
+  },
+  "_npmUser": {
+    "name": "minin",
+    "email": "miningamer@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "human-tools@0.1.0",
+    "scope": null,
+    "escapedName": "human-tools",
+    "name": "human-tools",
+    "rawSpec": "0.1.0",
+    "spec": "0.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/human-tools/-/human-tools-0.1.0.tgz",
+  "_shasum": "56b6b669c945a42e3f7af76fa39989046a87b9d2",
+  "_shrinkwrap": null,
+  "_spec": "human-tools@0.1.0",
+  "_where": "D:\\Stuff\\Coding\\Testing",
+  "author": "",
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "56b6b669c945a42e3f7af76fa39989046a87b9d2",
+    "tarball": "https://registry.npmjs.org/human-tools/-/human-tools-0.1.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "minin",
+      "email": "miningamer@gmail.com"
+    }
+  ],
+  "name": "human-tools",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}

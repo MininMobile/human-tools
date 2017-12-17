@@ -25,16 +25,6 @@ console.log(billy.firstName);
 console.log(billy.lastName);
 ```
 
-# Notes
-### Versioning
-```
-P.T.M
-
-M - Major Release
-T - Minor Release
-P - Patch
-```
-
 # Links
 - [GitHub][1]
 - [npm][2]

@@ -7,14 +7,17 @@ const rand = require("./../Util/rand");
 class Person {
 	/**
 	 * Sets the name for the Person
-	 * @param {string} first
-	 * @param {string} last
+	 * @param {string} first Enter `null` to skip
+	 * @param {string} last Enter `null` to skip
+	 * @param {number} age Represented in days, Enter `null` to skip
 	 */
-	constructor(first = null, last = null) {
+	constructor(first = null, last = null, age = null) {
 		/** @type {string} */
 		this.firstName = first;
 		/** @type {string} */
 		this.lastName = last;
+		/** @type {number} */
+		this.age = age;
 
 		if (first || last == null) {
 			let name = genName();

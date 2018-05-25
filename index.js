@@ -1,3 +1,3 @@
 module.exports = {
-	"Person":require("./src/People/Person")
+	"Person":require("./src/Classes/Person")
 }

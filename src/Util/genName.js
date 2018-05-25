@@ -1,4 +1,4 @@
-const names = require("./../JSON/names.json")
+const names = require("./../Data/names.json")
 
 function genName() {
 	function rand(min, max) { return Math.floor(Math.random() * max) + min; }

@@ -1,5 +1,6 @@
 const genName = require("./../Util/genName");
 const rand = require("./../Util/rand");
+const trans = require("./../Util/trans");
 
 /**
  * The Person Class is used for defining Humen
@@ -10,6 +11,7 @@ class Person {
 	 * @param {string} first Enter `null` to skip
 	 * @param {string} last Enter `null` to skip
 	 * @param {number} age Represented in days, Enter `null` to skip
+	 * @returns {class} Person
 	 */
 	constructor(first = null, last = null, age = null) {
 		/** @type {string} */
@@ -23,6 +25,11 @@ class Person {
 			let name = genName();
 			if (first == null) this.firstName = name.first;
 			if (last == null) this.lastName = name.last;
+		}
+
+		if (age == null) {
+			let myage = rand(1, 80);
+			this.age = trans(myage, "days", "years");
 		}
 	}
 

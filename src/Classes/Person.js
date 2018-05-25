@@ -1,4 +1,5 @@
 const genName = require("./../Util/genName");
+const rand = require("./../Util/rand");
 
 /**
  * The Person Class is used for defining Humen

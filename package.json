@@ -1,11 +1,11 @@
 {
-  "name": "human-tools",
-  "version": "1.3.0",
-  "description": "The tools to create humanity (probably)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "human-tools",
+	"version": "1.3.0",
+	"description": "The tools to create humanity (probably)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
 }

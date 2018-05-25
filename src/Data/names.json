@@ -1,15 +1,45 @@
 {
-	"firstNames":[
+	"male":[
 		"John",
 		"Jhon",
 		"Jeff",
 		"Dick",
 		"Richard",
-		"Bob"
+		"Bob",
+		"Dan",
+		"Daniel",
+		"Nate",
+		"Nikita",
+		"Dimitry",
+		"Ervin"
 	],
-	"lastNames":[
+	"female":[
+		"Sally",
+		"Emily",
+		"Alexa",
+		"Maria",
+		"Mary",
+		"Caroline",
+		"Emma",
+		"Olivia",
+		"Sophia",
+		"Mia",
+		"Amelia"
+	],
+	"unisex":[
+		"Alex",
+		"Cornelius",
+		"Riley",
+		"Dakota",
+		"Taylor",
+		"Eden"
+	],
+	"last":[
 		"Jones",
 		"Bond",
-		"Biblo"
+		"Biblo",
+		"Smith",
+		"Baker",
+		""
 	]
 }

@@ -1,4 +1,4 @@
-const genName = require("./../Functions/genName");
+const genName = require("./../Util/genName");
 
 /**
  * The Person Class is used for defining Humen

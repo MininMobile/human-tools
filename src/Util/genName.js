@@ -1,10 +1,10 @@
 const names = require("./../Data/names.json")
 
-function genName() {
+function genName(sex = "male") {
 	function rand(min, max) { return Math.floor(Math.random() * max) + min; }
 	
-	let first = names.firstNames[rand(0, names.firstNames.length)];
-	let last = names.lastNames[rand(0, names.lastNames.length)];
+	let first = names[sex][rand(0, names[sex].length)];
+	let last = names.last[rand(0, names.last.length)];
 
 	return {"first":first, "last":last};
 }

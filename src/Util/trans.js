@@ -3,6 +3,7 @@
  * @param {number} from Unit of time
  * @param {string} totype Unit of time represented in `from` argument
  * @param {string} fromtype Previous unit of time
+ * @returns {number} Requested unit of time
  */
 function transformTime(from, totype = "months", fromtype = "days", round = true) {
 	let multiplier = 1;

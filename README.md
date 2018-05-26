@@ -19,10 +19,13 @@ var randomPerson = new h.Person();
 // If you leave out the last name that will be random instead
 var billy = new h.Person("Billy", "Bob");
 
-console.log(randomPerson.fullName());
-
+// Get Person Age
 console.log(billy.firstName);
 console.log(billy.lastName);
+console.log(randomPerson.fullName());
+
+// Get Person Age (In Days)
+console.log(randomPersion.age);
 ```
 
 # Links

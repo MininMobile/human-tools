@@ -13,11 +13,11 @@ npm i human-tools@0.1.0 --save
 const h = require("human-tools");
 
 // Create a new person with a random name
-var randomPerson = new h.Person();
+let randomPerson = new h.Person();
 
 // Create a new person with a specific name
 // If you leave out the last name that will be random instead
-var billy = new h.Person("Billy", "Bob");
+let billy = new h.Person("Billy", "Bob");
 
 // Get Person Age
 console.log(billy.firstName);

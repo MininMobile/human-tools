@@ -10,6 +10,7 @@ npm i human-tools@0.1.0 --save
 
 # Usage
 ```javascript
+// Require package
 const h = require("human-tools");
 
 // Create a new person with a random name
@@ -19,7 +20,7 @@ let randomPerson = new h.Person();
 // If you leave out the last name that will be random instead
 let billy = new h.Person("Billy", "Bob");
 
-// Get Person Age
+// Get Person Name
 console.log(billy.firstName);
 console.log(billy.lastName);
 console.log(randomPerson.fullName());

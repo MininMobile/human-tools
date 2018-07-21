@@ -1,6 +1,6 @@
 {
 	"name": "human-tools",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"description": "The tools to create humanity (probably)",
 	"main": "index.js",
 	"bugs": {

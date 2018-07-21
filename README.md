@@ -35,4 +35,4 @@ console.log(randomPersion.age);
 
 [1]: https://github.com/MininMobile/human-tools
 [2]: https://www.npmjs.com/package/human-tools
-[3]: mailto:notminin+prod@gmail.com
+[3]: mailto:notminin@pm.me

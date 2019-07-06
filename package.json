@@ -1,22 +1,22 @@
 {
 	"name": "human-tools",
-	"version": "1.4.1",
+	"version": "1.5.0",
 	"description": "The tools to create humanity (probably)",
 	"main": "index.js",
 	"bugs": {
-		"url": "https://github.com/MininMobile/human-tools/issues"
+		"url": "https://github.com/mininmobile/human-tools/issues"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository":{
 		"type": "git",
-		"url": "https://github.com/MininMobile/human-tools.git"
+		"url": "https://github.com/mininmobile/human-tools.git"
 	},
 	"author": {
-		"name": "Minin",
-		"url": "http://minin.tk/"
+		"name": "zvava",
+		"url": "https://zvava.org/"
 	},
-	"homepage": "https://github.com/MininMobile/human-tools",
+	"homepage": "https://github.com/mininmobile/human-tools",
 	"license": "MIT"
 }

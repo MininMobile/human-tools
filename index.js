@@ -1,9 +1,10 @@
 module.exports = {
-	"Utils":{
-		"transformTime":require("./src/Util/trans"),
-		"generateName":require("./src/Util/genName"),
-		"random":require("./src/Util/rand")
+	"util":{
+		"transformTime": require("./src/util/transformTime"),
+		"toProperCase": require("./src/util/toProperCase"),
+		"generateName": require("./src/util/generateName"),
+		"random": require("./src/util/random"),
 	},
 
-	"Person":require("./src/Classes/Person")
+	"person": require("./src/class/Person"),
 }

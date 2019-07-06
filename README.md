@@ -14,19 +14,22 @@ npm i human-tools@0.1.0 --save
 const h = require("human-tools");
 
 // Create a new person with a random name
-let randomPerson = new h.Person();
+let randomPerson = new h.person();
 
 // Create a new person with a specific name
 // If you leave out the last name that will be random instead
-let billy = new h.Person("Billy", "Bob");
+let billy = new h.person({
+	firstName: "billy",
+	lastName: "bob",
+});
 
 // Get Person Name
-console.log(billy.firstName);
-console.log(billy.lastName);
-console.log(randomPerson.fullName());
+console.log(billy.firstName); // billy
+console.log(billy.lastName); // bob
+console.log(randomPerson.fullName()); // ?
 
 // Get Person Age (In Days)
-console.log(randomPersion.age);
+console.log(randomPersion.age); // ?
 ```
 
 # Links

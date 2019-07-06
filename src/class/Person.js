@@ -9,20 +9,23 @@ const transformTime = require("../util/transformTime");
  */
 class Person {
 	/**
-	 * creates a person
-	 * @param {object} options
-	 * @returns {class} Person
+	 * initialize a person
+	 * @param {{firstName: string, lastName: string, age: number, sex: "male"|"female" }} [options] sets options of a person
+	 * @memberof Person
 	 */
 	constructor(options = {
 		firstName: undefined,
 		lastName: undefined,
 		age: undefined,
+		sex: undefined,
 	}) {
+		this.sex = options.sex || ["male", "female"][Math.round(Math.random())];
+
 		{ // set name
 			let name;
 
 			if (!options.firstName || !options.lastName)
-				name = generateName();
+				name = generateName([this.sex, "unisex"][Math.round(Math.random())]);
 
 			/** @type {string} */
 			this.firstName = options.firstName || name.first;
